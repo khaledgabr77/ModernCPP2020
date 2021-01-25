@@ -1,13 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
+clang++ -c -Iinclude/ src/sum.cpp -o build/sum.o 
+clang++ -c -Iinclude/ src/subtract.cpp -o build/subtract.o
 
-clang++ -c -I include/ src/sum.cpp -o build/sum.o 
-clang++ -c -I include/ src/subtract.cpp -o build/subtract.o
+ar rcs build/libipb_arithmetic.a build/sum.o build/subtract.o
 
-cd /home/khaled/Desktop/ModernCPP2020/homework_1/task_2/build
+clang++ -Iinclude/ src/main.cpp -o main -Lbuild/ -lipb_arithmetic 
 
-
-ar rcs libipb_arithmetic.a sum.o subtract.o
-
-clang++ ../src/main.cpp -L . - libipb_arithmetic.a -o main
-
+mv main results/bin/ 
