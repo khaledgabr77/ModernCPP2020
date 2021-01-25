@@ -4,7 +4,7 @@
 // Copyright (c) 2019 Ignacio Vizzo, all rights reserved
 #include <iostream>
 
-#include "ipb_arithmetic.hpp"
+#include "../include/ipb_arithmetic.hpp"
 
 using std::cout;
 using std::endl;
