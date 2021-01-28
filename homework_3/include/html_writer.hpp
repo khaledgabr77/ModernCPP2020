@@ -5,6 +5,7 @@
 #ifndef HTML_WRITER_H_
 #define HTML_WRITER_H_
 
+#include <fstream>
 #include <string>
 
 namespace html_writer {
@@ -29,14 +30,14 @@ void CloseDocument();
  * @param stylesheet The path where the CSS file is located, typically
  * "<path>/style.css"
  */
-void AddCSSStyle(const std::string& stylesheet);
+void AddCSSStyle(const std::string &stylesheet);
 
 /**
  * @brief This function adds a Title to your web application
  *
  * @param title The string containing the title, could be as long as you wish.
  */
-void AddTitle(const std::string& title);
+void AddTitle(const std::string &title);
 
 /**
  * @brief This will open a <body> clause in your web application.
@@ -70,8 +71,9 @@ void CloseRow();
  * @param score     The score of the given image
  * @param highlight In case to be the very first image, this must be true.
  */
-void AddImage(const std::string& img_path, float score, bool highlight = false);
+void AddImage(const std::string &img_path, const std::string &image_name,
+              float &score, bool highlight = false);
 
-}  // namespace html_writer
+} // namespace html_writer
 
-#endif  // HTML_WRITER_H_
+#endif // HTML_WRITER_H_
