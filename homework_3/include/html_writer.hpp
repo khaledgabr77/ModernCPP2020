@@ -5,7 +5,6 @@
 #ifndef HTML_WRITER_H_
 #define HTML_WRITER_H_
 
-#include <fstream>
 #include <string>
 
 namespace html_writer {
