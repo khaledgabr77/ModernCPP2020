@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/khaled/Desktop/ModernCPP2020/homework_5/examples_lec/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/any.dir/main.cpp.o -c /home/khaled/Desktop/ModernCPP2020/homework_5/examples_lec/main.cpp",
+  "file": "/home/khaled/Desktop/ModernCPP2020/homework_5/examples_lec/main.cpp"
+}
+]
