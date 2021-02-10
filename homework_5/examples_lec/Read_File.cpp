@@ -1,13 +1,14 @@
-#include <fstream>
+#include <fstream> // For the file streams .
 #include <ios>
 #include <iostream>
-#include <ostream>
 #include <string>
-
+using namespace std; // Saving space .
 int main() {
-  int value;
-  std::ifstream in("test_cols.txt", std::ios_base::in);
-  while (in >> value) {
-    std::cout << value << std::endl;
+
+  std::string l;
+  std::ifstream kk("test.cols.txt", std::ios_base::in);
+  while (kk >> l) {
+    cout << l << endl;
   }
+  return 0;
 }
