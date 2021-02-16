@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/khaled/Desktop/ModernCPP
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e045/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e045.dir/build.make CMakeFiles/cmTC_8e045.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_caba4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_caba4.dir/build.make CMakeFiles/cmTC_caba4.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e045.dir/testCCompiler.c.o
-/usr/bin/clang    -o CMakeFiles/cmTC_8e045.dir/testCCompiler.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8e045
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e045.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_8e045.dir/testCCompiler.c.o  -o cmTC_8e045 
+Building C object CMakeFiles/cmTC_caba4.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_caba4.dir/testCCompiler.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_caba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caba4.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_caba4.dir/testCCompiler.c.o  -o cmTC_caba4 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41291/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41291.dir/build.make CMakeFiles/cmTC_41291.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2901e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2901e.dir/build.make CMakeFiles/cmTC_2901e.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang    -o CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_41291
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41291.dir/link.txt --verbose=1
-/usr/bin/clang     -v CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o  -o cmTC_41291 
+Building C object CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2901e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2901e.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o  -o cmTC_2901e 
 clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -77,7 +77,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/10
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41291 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2901e /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -85,14 +85,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_41291/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_41291.dir/build.make CMakeFiles/cmTC_41291.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2901e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2901e.dir/build.make CMakeFiles/cmTC_2901e.dir/build]
   ignore line: [make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_41291]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41291.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o  -o cmTC_41291 ]
+  ignore line: [Building C object CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2901e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2901e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o  -o cmTC_2901e ]
   ignore line: [clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41291 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2901e /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -132,7 +132,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_41291] ==> ignore
+    arg [cmTC_2901e] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/10/crtbegin.o] ==> ignore
@@ -145,7 +145,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_41291.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2901e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -176,14 +176,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3d558/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d558.dir/build.make CMakeFiles/cmTC_3d558.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_04ef5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04ef5.dir/build.make CMakeFiles/cmTC_04ef5.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d558.dir/feature_tests.c.o
-/usr/bin/clang   -std=c11 -o CMakeFiles/cmTC_3d558.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3d558
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d558.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_3d558.dir/feature_tests.c.o  -o cmTC_3d558 
+Building C object CMakeFiles/cmTC_04ef5.dir/feature_tests.c.o
+/usr/bin/clang   -std=c11 -o CMakeFiles/cmTC_04ef5.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_04ef5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04ef5.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_04ef5.dir/feature_tests.c.o  -o cmTC_04ef5 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -196,14 +196,14 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3266f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3266f.dir/build.make CMakeFiles/cmTC_3266f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6277d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6277d.dir/build.make CMakeFiles/cmTC_6277d.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3266f.dir/feature_tests.c.o
-/usr/bin/clang   -std=c99 -o CMakeFiles/cmTC_3266f.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3266f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3266f.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_3266f.dir/feature_tests.c.o  -o cmTC_3266f 
+Building C object CMakeFiles/cmTC_6277d.dir/feature_tests.c.o
+/usr/bin/clang   -std=c99 -o CMakeFiles/cmTC_6277d.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6277d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6277d.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_6277d.dir/feature_tests.c.o  -o cmTC_6277d 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,14 +216,14 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ddaea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ddaea.dir/build.make CMakeFiles/cmTC_ddaea.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1e1cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e1cf.dir/build.make CMakeFiles/cmTC_1e1cf.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ddaea.dir/feature_tests.c.o
-/usr/bin/clang   -std=c90 -o CMakeFiles/cmTC_ddaea.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ddaea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddaea.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_ddaea.dir/feature_tests.c.o  -o cmTC_ddaea 
+Building C object CMakeFiles/cmTC_1e1cf.dir/feature_tests.c.o
+/usr/bin/clang   -std=c90 -o CMakeFiles/cmTC_1e1cf.dir/feature_tests.c.o   -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1e1cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1cf.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_1e1cf.dir/feature_tests.c.o  -o cmTC_1e1cf 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -234,28 +234,28 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b947/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b947.dir/build.make CMakeFiles/cmTC_3b947.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ccfd9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccfd9.dir/build.make CMakeFiles/cmTC_ccfd9.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3b947.dir/testCXXCompiler.cxx.o
-/usr/bin/g++     -o CMakeFiles/cmTC_3b947.dir/testCXXCompiler.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_3b947
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b947.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_3b947.dir/testCXXCompiler.cxx.o  -o cmTC_3b947 
+Building CXX object CMakeFiles/cmTC_ccfd9.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_ccfd9.dir/testCXXCompiler.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ccfd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfd9.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_ccfd9.dir/testCXXCompiler.cxx.o  -o cmTC_ccfd9 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50e22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50e22.dir/build.make CMakeFiles/cmTC_50e22.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_36505/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36505.dir/build.make CMakeFiles/cmTC_36505.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++     -o CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_50e22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e22.dir/link.txt --verbose=1
-/usr/bin/g++      -v CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_50e22 
+Building CXX object CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_36505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36505.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_36505 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -268,9 +268,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.1.0 (Ubuntu 10.1.0-2ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e22' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLkN1jO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_50e22 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e22' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36505' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPRpcYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_36505 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36505' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -278,14 +278,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_50e22/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_50e22.dir/build.make CMakeFiles/cmTC_50e22.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_36505/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_36505.dir/build.make CMakeFiles/cmTC_36505.dir/build]
   ignore line: [make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_50e22]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e22.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_50e22 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_36505]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36505.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_36505 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -298,13 +298,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.1.0 (Ubuntu 10.1.0-2ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e22' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLkN1jO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_50e22 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36505' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPRpcYs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_36505 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccLkN1jO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPRpcYs.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -322,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_50e22] ==> ignore
+    arg [cmTC_36505] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -334,7 +334,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_50e22.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_36505.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -362,14 +362,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a7ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a7ab.dir/build.make CMakeFiles/cmTC_0a7ab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9e61e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e61e.dir/build.make CMakeFiles/cmTC_9e61e.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a7ab.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_0a7ab.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0a7ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7ab.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_0a7ab.dir/feature_tests.cxx.o  -o cmTC_0a7ab 
+Building CXX object CMakeFiles/cmTC_9e61e.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_9e61e.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9e61e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e61e.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_9e61e.dir/feature_tests.cxx.o  -o cmTC_9e61e 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -435,14 +435,14 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_305bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_305bc.dir/build.make CMakeFiles/cmTC_305bc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3bdc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bdc8.dir/build.make CMakeFiles/cmTC_3bdc8.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_305bc.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_305bc.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_305bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_305bc.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_305bc.dir/feature_tests.cxx.o  -o cmTC_305bc 
+Building CXX object CMakeFiles/cmTC_3bdc8.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_3bdc8.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3bdc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bdc8.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_3bdc8.dir/feature_tests.cxx.o  -o cmTC_3bdc8 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -508,14 +508,14 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_92522/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92522.dir/build.make CMakeFiles/cmTC_92522.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f450e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f450e.dir/build.make CMakeFiles/cmTC_f450e.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_92522.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_92522.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_92522
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92522.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_92522.dir/feature_tests.cxx.o  -o cmTC_92522 
+Building CXX object CMakeFiles/cmTC_f450e.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_f450e.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f450e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f450e.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_f450e.dir/feature_tests.cxx.o  -o cmTC_f450e 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 
@@ -581,14 +581,14 @@ make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_438f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_438f7.dir/build.make CMakeFiles/cmTC_438f7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_448f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_448f8.dir/build.make CMakeFiles/cmTC_448f8.dir/build
 make[1]: Entering directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_438f7.dir/feature_tests.cxx.o
-/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_438f7.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_438f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_438f7.dir/link.txt --verbose=1
-/usr/bin/g++       CMakeFiles/cmTC_438f7.dir/feature_tests.cxx.o  -o cmTC_438f7 
+Building CXX object CMakeFiles/cmTC_448f8.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_448f8.dir/feature_tests.cxx.o -c /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_448f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_448f8.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_448f8.dir/feature_tests.cxx.o  -o cmTC_448f8 
 make[1]: Leaving directory '/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/CMakeTmp'
 
 

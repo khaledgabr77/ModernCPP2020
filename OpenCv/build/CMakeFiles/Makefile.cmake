@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/imwrite.dir/DependInfo.cmake"
   "CMakeFiles/imread.dir/DependInfo.cmake"
   "CMakeFiles/DisplayImage.dir/DependInfo.cmake"
   )

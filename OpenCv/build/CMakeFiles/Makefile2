@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv
 CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/imwrite.dir
+
+# All Build rule for target.
+CMakeFiles/imwrite.dir/all:
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/depend
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=5,6 "Built target imwrite"
+.PHONY : CMakeFiles/imwrite.dir/all
+
+# Include target in all.
+all: CMakeFiles/imwrite.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/imwrite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imwrite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/imwrite.dir/rule
+
+# Convenience name for target.
+imwrite: CMakeFiles/imwrite.dir/rule
+
+.PHONY : imwrite
+
+# clean rule for target.
+CMakeFiles/imwrite.dir/clean:
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/clean
+.PHONY : CMakeFiles/imwrite.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/imwrite.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/imread.dir
 
 # All Build rule for target.
