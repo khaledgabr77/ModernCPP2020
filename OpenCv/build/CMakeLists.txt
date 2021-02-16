@@ -1,0 +1,7 @@
+cmake_minimum_required(3.10)
+set ( CMAKE_CXX_STANDARD 17)
+project(DislayImage)
+find_package(OpenCV 4 REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable( DisplayImage src/ight.cpp )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
