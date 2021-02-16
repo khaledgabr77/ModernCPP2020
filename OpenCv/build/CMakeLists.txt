@@ -11,3 +11,6 @@ target_link_libraries( imread ${OpenCV_LIBS} )
 
 add_executable( imwrite src/imwrite.cpp )
 target_link_libraries( imwrite ${OpenCV_LIBS} )
+
+add_executable( io src/IO.cpp )
+target_link_libraries( io ${OpenCV_LIBS} )

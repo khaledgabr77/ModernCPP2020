@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named io
+
+# Build rule for target.
+io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 io
+.PHONY : io
+
+# fast build rule for target.
+io/fast:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
+.PHONY : io/fast
+
+#=============================================================================
 # Target rules for targets named imwrite
 
 # Build rule for target.
@@ -148,6 +161,33 @@ DisplayImage: cmake_check_build_system
 DisplayImage/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
+
+src/IO.o: src/IO.cpp.o
+
+.PHONY : src/IO.o
+
+# target to build an object file
+src/IO.cpp.o:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/IO.cpp.o
+.PHONY : src/IO.cpp.o
+
+src/IO.i: src/IO.cpp.i
+
+.PHONY : src/IO.i
+
+# target to preprocess a source file
+src/IO.cpp.i:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/IO.cpp.i
+.PHONY : src/IO.cpp.i
+
+src/IO.s: src/IO.cpp.s
+
+.PHONY : src/IO.s
+
+# target to generate assembly for a file
+src/IO.cpp.s:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/IO.cpp.s
+.PHONY : src/IO.cpp.s
 
 src/imread.o: src/imread.cpp.o
 
@@ -238,9 +278,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... io"
 	@echo "... imwrite"
 	@echo "... imread"
 	@echo "... DisplayImage"
+	@echo "... src/IO.o"
+	@echo "... src/IO.i"
+	@echo "... src/IO.s"
 	@echo "... src/imread.o"
 	@echo "... src/imread.i"
 	@echo "... src/imread.s"
