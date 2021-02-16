@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named img
+
+# Build rule for target.
+img: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 img
+.PHONY : img
+
+# fast build rule for target.
+img/fast:
+	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/build
+.PHONY : img/fast
+
+#=============================================================================
 # Target rules for targets named io
 
 # Build rule for target.
@@ -188,6 +201,33 @@ src/IO.s: src/IO.cpp.s
 src/IO.cpp.s:
 	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/IO.cpp.s
 .PHONY : src/IO.cpp.s
+
+src/Load&Dispaly.o: src/Load&Dispaly.cpp.o
+
+.PHONY : src/Load&Dispaly.o
+
+# target to build an object file
+src/Load&Dispaly.cpp.o:
+	$(MAKE) -f CMakeFiles/img.dir/build.make "CMakeFiles/img.dir/src/Load&Dispaly.cpp.o"
+.PHONY : src/Load&Dispaly.cpp.o
+
+src/Load&Dispaly.i: src/Load&Dispaly.cpp.i
+
+.PHONY : src/Load&Dispaly.i
+
+# target to preprocess a source file
+src/Load&Dispaly.cpp.i:
+	$(MAKE) -f CMakeFiles/img.dir/build.make "CMakeFiles/img.dir/src/Load&Dispaly.cpp.i"
+.PHONY : src/Load&Dispaly.cpp.i
+
+src/Load&Dispaly.s: src/Load&Dispaly.cpp.s
+
+.PHONY : src/Load&Dispaly.s
+
+# target to generate assembly for a file
+src/Load&Dispaly.cpp.s:
+	$(MAKE) -f CMakeFiles/img.dir/build.make "CMakeFiles/img.dir/src/Load&Dispaly.cpp.s"
+.PHONY : src/Load&Dispaly.cpp.s
 
 src/imread.o: src/imread.cpp.o
 
@@ -278,6 +318,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... img"
 	@echo "... io"
 	@echo "... imwrite"
 	@echo "... imread"
@@ -285,6 +326,9 @@ help:
 	@echo "... src/IO.o"
 	@echo "... src/IO.i"
 	@echo "... src/IO.s"
+	@echo "... src/Load&Dispaly.o"
+	@echo "... src/Load&Dispaly.i"
+	@echo "... src/Load&Dispaly.s"
 	@echo "... src/imread.o"
 	@echo "... src/imread.i"
 	@echo "... src/imread.s"
