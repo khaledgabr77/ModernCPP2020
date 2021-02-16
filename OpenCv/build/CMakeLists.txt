@@ -19,3 +19,6 @@ add_executable( img src/Load&Dispaly.cpp )
 target_link_libraries( img ${OpenCV_LIBS} )
 add_executable( blank src/BlankImage.cpp )
 target_link_libraries( blank ${OpenCV_LIBS} )
+
+add_executable( video src/PlayVideo.cpp )
+target_link_libraries( video ${OpenCV_LIBS} )

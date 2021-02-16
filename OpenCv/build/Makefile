@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named video
+
+# Build rule for target.
+video: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video
+.PHONY : video
+
+# fast build rule for target.
+video/fast:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
+.PHONY : video/fast
+
+#=============================================================================
 # Target rules for targets named blank
 
 # Build rule for target.
@@ -269,6 +282,33 @@ src/Load&Dispaly.cpp.s:
 	$(MAKE) -f CMakeFiles/img.dir/build.make "CMakeFiles/img.dir/src/Load&Dispaly.cpp.s"
 .PHONY : src/Load&Dispaly.cpp.s
 
+src/PlayVideo.o: src/PlayVideo.cpp.o
+
+.PHONY : src/PlayVideo.o
+
+# target to build an object file
+src/PlayVideo.cpp.o:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.o
+.PHONY : src/PlayVideo.cpp.o
+
+src/PlayVideo.i: src/PlayVideo.cpp.i
+
+.PHONY : src/PlayVideo.i
+
+# target to preprocess a source file
+src/PlayVideo.cpp.i:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.i
+.PHONY : src/PlayVideo.cpp.i
+
+src/PlayVideo.s: src/PlayVideo.cpp.s
+
+.PHONY : src/PlayVideo.s
+
+# target to generate assembly for a file
+src/PlayVideo.cpp.s:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.s
+.PHONY : src/PlayVideo.cpp.s
+
 src/imread.o: src/imread.cpp.o
 
 .PHONY : src/imread.o
@@ -358,6 +398,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... video"
 	@echo "... blank"
 	@echo "... img"
 	@echo "... io"
@@ -373,6 +414,9 @@ help:
 	@echo "... src/Load&Dispaly.o"
 	@echo "... src/Load&Dispaly.i"
 	@echo "... src/Load&Dispaly.s"
+	@echo "... src/PlayVideo.o"
+	@echo "... src/PlayVideo.i"
+	@echo "... src/PlayVideo.s"
 	@echo "... src/imread.o"
 	@echo "... src/imread.i"
 	@echo "... src/imread.s"

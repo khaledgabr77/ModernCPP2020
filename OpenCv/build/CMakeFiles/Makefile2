@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv
 CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/video.dir
+
+# All Build rule for target.
+CMakeFiles/video.dir/all:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/depend
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=13,14 "Built target video"
+.PHONY : CMakeFiles/video.dir/all
+
+# Include target in all.
+all: CMakeFiles/video.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/video.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/video.dir/rule
+
+# Convenience name for target.
+video: CMakeFiles/video.dir/rule
+
+.PHONY : video
+
+# clean rule for target.
+CMakeFiles/video.dir/clean:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/clean
+.PHONY : CMakeFiles/video.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/video.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/blank.dir
 
 # All Build rule for target.
