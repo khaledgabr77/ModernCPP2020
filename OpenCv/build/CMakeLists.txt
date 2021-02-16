@@ -17,3 +17,5 @@ target_link_libraries( io ${OpenCV_LIBS} )
 
 add_executable( img src/Load&Dispaly.cpp )
 target_link_libraries( img ${OpenCV_LIBS} )
+add_executable( blank src/BlankImage.cpp )
+target_link_libraries( blank ${OpenCV_LIBS} )

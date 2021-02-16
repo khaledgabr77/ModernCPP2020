@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named blank
+
+# Build rule for target.
+blank: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 blank
+.PHONY : blank
+
+# fast build rule for target.
+blank/fast:
+	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/build
+.PHONY : blank/fast
+
+#=============================================================================
 # Target rules for targets named img
 
 # Build rule for target.
@@ -174,6 +187,33 @@ DisplayImage: cmake_check_build_system
 DisplayImage/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
+
+src/BlankImage.o: src/BlankImage.cpp.o
+
+.PHONY : src/BlankImage.o
+
+# target to build an object file
+src/BlankImage.cpp.o:
+	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/src/BlankImage.cpp.o
+.PHONY : src/BlankImage.cpp.o
+
+src/BlankImage.i: src/BlankImage.cpp.i
+
+.PHONY : src/BlankImage.i
+
+# target to preprocess a source file
+src/BlankImage.cpp.i:
+	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/src/BlankImage.cpp.i
+.PHONY : src/BlankImage.cpp.i
+
+src/BlankImage.s: src/BlankImage.cpp.s
+
+.PHONY : src/BlankImage.s
+
+# target to generate assembly for a file
+src/BlankImage.cpp.s:
+	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/src/BlankImage.cpp.s
+.PHONY : src/BlankImage.cpp.s
 
 src/IO.o: src/IO.cpp.o
 
@@ -318,11 +358,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... blank"
 	@echo "... img"
 	@echo "... io"
 	@echo "... imwrite"
 	@echo "... imread"
 	@echo "... DisplayImage"
+	@echo "... src/BlankImage.o"
+	@echo "... src/BlankImage.i"
+	@echo "... src/BlankImage.s"
 	@echo "... src/IO.o"
 	@echo "... src/IO.i"
 	@echo "... src/IO.s"
