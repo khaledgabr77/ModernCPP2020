@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named open
+
+# Build rule for target.
+open: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 open
+.PHONY : open
+
+# fast build rule for target.
+open/fast:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
+.PHONY : open/fast
+
+#=============================================================================
 # Target rules for targets named video
 
 # Build rule for target.
@@ -227,6 +240,33 @@ src/BlankImage.s: src/BlankImage.cpp.s
 src/BlankImage.cpp.s:
 	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/src/BlankImage.cpp.s
 .PHONY : src/BlankImage.cpp.s
+
+src/CameraVideo.o: src/CameraVideo.cpp.o
+
+.PHONY : src/CameraVideo.o
+
+# target to build an object file
+src/CameraVideo.cpp.o:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/src/CameraVideo.cpp.o
+.PHONY : src/CameraVideo.cpp.o
+
+src/CameraVideo.i: src/CameraVideo.cpp.i
+
+.PHONY : src/CameraVideo.i
+
+# target to preprocess a source file
+src/CameraVideo.cpp.i:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/src/CameraVideo.cpp.i
+.PHONY : src/CameraVideo.cpp.i
+
+src/CameraVideo.s: src/CameraVideo.cpp.s
+
+.PHONY : src/CameraVideo.s
+
+# target to generate assembly for a file
+src/CameraVideo.cpp.s:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/src/CameraVideo.cpp.s
+.PHONY : src/CameraVideo.cpp.s
 
 src/IO.o: src/IO.cpp.o
 
@@ -398,6 +438,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... open"
 	@echo "... video"
 	@echo "... blank"
 	@echo "... img"
@@ -408,6 +449,9 @@ help:
 	@echo "... src/BlankImage.o"
 	@echo "... src/BlankImage.i"
 	@echo "... src/BlankImage.s"
+	@echo "... src/CameraVideo.o"
+	@echo "... src/CameraVideo.i"
+	@echo "... src/CameraVideo.s"
 	@echo "... src/IO.o"
 	@echo "... src/IO.i"
 	@echo "... src/IO.s"

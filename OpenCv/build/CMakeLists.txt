@@ -22,3 +22,5 @@ target_link_libraries( blank ${OpenCV_LIBS} )
 
 add_executable( video src/PlayVideo.cpp )
 target_link_libraries( video ${OpenCV_LIBS} )
+add_executable( open src/CameraVideo.cpp )
+target_link_libraries( open ${OpenCV_LIBS} )

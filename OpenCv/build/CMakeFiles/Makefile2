@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv
 CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/open.dir
+
+# All Build rule for target.
+CMakeFiles/open.dir/all:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/depend
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=13,14 "Built target open"
+.PHONY : CMakeFiles/open.dir/all
+
+# Include target in all.
+all: CMakeFiles/open.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/open.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/open.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/open.dir/rule
+
+# Convenience name for target.
+open: CMakeFiles/open.dir/rule
+
+.PHONY : open
+
+# clean rule for target.
+CMakeFiles/open.dir/clean:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/clean
+.PHONY : CMakeFiles/open.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/open.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/video.dir
 
 # All Build rule for target.
 CMakeFiles/video.dir/all:
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/depend
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=13,14 "Built target video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=15,16 "Built target video"
 .PHONY : CMakeFiles/video.dir/all
 
 # Include target in all.
