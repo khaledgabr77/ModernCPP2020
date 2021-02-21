@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named op
+
+# Build rule for target.
+op: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 op
+.PHONY : op
+
+# fast build rule for target.
+op/fast:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
+.PHONY : op/fast
 
 #=============================================================================
 # Target rules for targets named open
@@ -443,6 +456,33 @@ src/imwrite.cpp.s:
 	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/src/imwrite.cpp.s
 .PHONY : src/imwrite.cpp.s
 
+src/introductionOpencv.o: src/introductionOpencv.cpp.o
+
+.PHONY : src/introductionOpencv.o
+
+# target to build an object file
+src/introductionOpencv.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/src/introductionOpencv.cpp.o
+.PHONY : src/introductionOpencv.cpp.o
+
+src/introductionOpencv.i: src/introductionOpencv.cpp.i
+
+.PHONY : src/introductionOpencv.i
+
+# target to preprocess a source file
+src/introductionOpencv.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/src/introductionOpencv.cpp.i
+.PHONY : src/introductionOpencv.cpp.i
+
+src/introductionOpencv.s: src/introductionOpencv.cpp.s
+
+.PHONY : src/introductionOpencv.s
+
+# target to generate assembly for a file
+src/introductionOpencv.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/src/introductionOpencv.cpp.s
+.PHONY : src/introductionOpencv.cpp.s
+
 src/light.o: src/light.cpp.o
 
 .PHONY : src/light.o
@@ -476,8 +516,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... op"
 	@echo "... open"
 	@echo "... video"
 	@echo "... blank"
@@ -511,6 +552,9 @@ help:
 	@echo "... src/imwrite.o"
 	@echo "... src/imwrite.i"
 	@echo "... src/imwrite.s"
+	@echo "... src/introductionOpencv.o"
+	@echo "... src/introductionOpencv.i"
+	@echo "... src/introductionOpencv.s"
 	@echo "... src/light.o"
 	@echo "... src/light.i"
 	@echo "... src/light.s"
