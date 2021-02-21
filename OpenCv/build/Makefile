@@ -124,6 +124,19 @@ op/fast:
 .PHONY : op/fast
 
 #=============================================================================
+# Target rules for targets named smooth
+
+# Build rule for target.
+smooth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smooth
+.PHONY : smooth
+
+# fast build rule for target.
+smooth/fast:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/build
+.PHONY : smooth/fast
+
+#=============================================================================
 # Target rules for targets named open
 
 # Build rule for target.
@@ -510,6 +523,33 @@ src/light.cpp.s:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/light.cpp.s
 .PHONY : src/light.cpp.s
 
+src/smoothing.o: src/smoothing.cpp.o
+
+.PHONY : src/smoothing.o
+
+# target to build an object file
+src/smoothing.cpp.o:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/src/smoothing.cpp.o
+.PHONY : src/smoothing.cpp.o
+
+src/smoothing.i: src/smoothing.cpp.i
+
+.PHONY : src/smoothing.i
+
+# target to preprocess a source file
+src/smoothing.cpp.i:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/src/smoothing.cpp.i
+.PHONY : src/smoothing.cpp.i
+
+src/smoothing.s: src/smoothing.cpp.s
+
+.PHONY : src/smoothing.s
+
+# target to generate assembly for a file
+src/smoothing.cpp.s:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/src/smoothing.cpp.s
+.PHONY : src/smoothing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -519,6 +559,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... op"
+	@echo "... smooth"
 	@echo "... open"
 	@echo "... video"
 	@echo "... blank"
@@ -558,6 +599,9 @@ help:
 	@echo "... src/light.o"
 	@echo "... src/light.i"
 	@echo "... src/light.s"
+	@echo "... src/smoothing.o"
+	@echo "... src/smoothing.i"
+	@echo "... src/smoothing.s"
 .PHONY : help
 
 
