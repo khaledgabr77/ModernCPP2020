@@ -163,6 +163,19 @@ img/fast:
 .PHONY : img/fast
 
 #=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+#=============================================================================
 # Target rules for targets named io
 
 # Build rule for target.
@@ -349,6 +362,33 @@ src/PlayVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.s
 .PHONY : src/PlayVideo.cpp.s
 
+src/filter.o: src/filter.cpp.o
+
+.PHONY : src/filter.o
+
+# target to build an object file
+src/filter.cpp.o:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/filter.cpp.o
+.PHONY : src/filter.cpp.o
+
+src/filter.i: src/filter.cpp.i
+
+.PHONY : src/filter.i
+
+# target to preprocess a source file
+src/filter.cpp.i:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/filter.cpp.i
+.PHONY : src/filter.cpp.i
+
+src/filter.s: src/filter.cpp.s
+
+.PHONY : src/filter.s
+
+# target to generate assembly for a file
+src/filter.cpp.s:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/filter.cpp.s
+.PHONY : src/filter.cpp.s
+
 src/imread.o: src/imread.cpp.o
 
 .PHONY : src/imread.o
@@ -442,6 +482,7 @@ help:
 	@echo "... video"
 	@echo "... blank"
 	@echo "... img"
+	@echo "... filter"
 	@echo "... io"
 	@echo "... imwrite"
 	@echo "... imread"
@@ -461,6 +502,9 @@ help:
 	@echo "... src/PlayVideo.o"
 	@echo "... src/PlayVideo.i"
 	@echo "... src/PlayVideo.s"
+	@echo "... src/filter.o"
+	@echo "... src/filter.i"
+	@echo "... src/filter.s"
 	@echo "... src/imread.o"
 	@echo "... src/imread.i"
 	@echo "... src/imread.s"
