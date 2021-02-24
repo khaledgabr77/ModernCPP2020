@@ -37,3 +37,6 @@ add_executable( ero src/ero&dil.cpp )
 target_link_libraries( ero ${OpenCV_LIBS} )
 add_executable( equ src/HistEqualization.cpp )
 target_link_libraries( equ ${OpenCV_LIBS} )
+
+add_executable( cal src/HistCal.cpp )
+target_link_libraries( cal ${OpenCV_LIBS} )

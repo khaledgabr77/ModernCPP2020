@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cal
+
+# Build rule for target.
+cal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cal
+.PHONY : cal
+
+# fast build rule for target.
+cal/fast:
+	$(MAKE) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/build
+.PHONY : cal/fast
+
+#=============================================================================
 # Target rules for targets named DisplayImage
 
 # Build rule for target.
@@ -345,6 +358,33 @@ src/CameraVideo.s: src/CameraVideo.cpp.s
 src/CameraVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/src/CameraVideo.cpp.s
 .PHONY : src/CameraVideo.cpp.s
+
+src/HistCal.o: src/HistCal.cpp.o
+
+.PHONY : src/HistCal.o
+
+# target to build an object file
+src/HistCal.cpp.o:
+	$(MAKE) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/src/HistCal.cpp.o
+.PHONY : src/HistCal.cpp.o
+
+src/HistCal.i: src/HistCal.cpp.i
+
+.PHONY : src/HistCal.i
+
+# target to preprocess a source file
+src/HistCal.cpp.i:
+	$(MAKE) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/src/HistCal.cpp.i
+.PHONY : src/HistCal.cpp.i
+
+src/HistCal.s: src/HistCal.cpp.s
+
+.PHONY : src/HistCal.s
+
+# target to generate assembly for a file
+src/HistCal.cpp.s:
+	$(MAKE) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/src/HistCal.cpp.s
+.PHONY : src/HistCal.cpp.s
 
 src/HistEqualization.o: src/HistEqualization.cpp.o
 
@@ -678,6 +718,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... cal"
 	@echo "... DisplayImage"
 	@echo "... imwrite"
 	@echo "... io"
@@ -698,6 +739,9 @@ help:
 	@echo "... src/CameraVideo.o"
 	@echo "... src/CameraVideo.i"
 	@echo "... src/CameraVideo.s"
+	@echo "... src/HistCal.o"
+	@echo "... src/HistCal.i"
+	@echo "... src/HistCal.s"
 	@echo "... src/HistEqualization.o"
 	@echo "... src/HistEqualization.i"
 	@echo "... src/HistEqualization.s"
