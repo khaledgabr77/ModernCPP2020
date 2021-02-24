@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,108 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named op
+# Target rules for targets named DisplayImage
 
 # Build rule for target.
-op: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 op
-.PHONY : op
+DisplayImage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
+.PHONY : DisplayImage
 
 # fast build rule for target.
-op/fast:
-	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
-.PHONY : op/fast
-
-#=============================================================================
-# Target rules for targets named smooth
-
-# Build rule for target.
-smooth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 smooth
-.PHONY : smooth
-
-# fast build rule for target.
-smooth/fast:
-	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/build
-.PHONY : smooth/fast
-
-#=============================================================================
-# Target rules for targets named open
-
-# Build rule for target.
-open: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 open
-.PHONY : open
-
-# fast build rule for target.
-open/fast:
-	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
-.PHONY : open/fast
-
-#=============================================================================
-# Target rules for targets named video
-
-# Build rule for target.
-video: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video
-.PHONY : video
-
-# fast build rule for target.
-video/fast:
-	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
-.PHONY : video/fast
-
-#=============================================================================
-# Target rules for targets named blank
-
-# Build rule for target.
-blank: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 blank
-.PHONY : blank
-
-# fast build rule for target.
-blank/fast:
-	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/build
-.PHONY : blank/fast
-
-#=============================================================================
-# Target rules for targets named img
-
-# Build rule for target.
-img: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 img
-.PHONY : img
-
-# fast build rule for target.
-img/fast:
-	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/build
-.PHONY : img/fast
-
-#=============================================================================
-# Target rules for targets named filter
-
-# Build rule for target.
-filter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filter
-.PHONY : filter
-
-# fast build rule for target.
-filter/fast:
-	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
-.PHONY : filter/fast
-
-#=============================================================================
-# Target rules for targets named io
-
-# Build rule for target.
-io: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 io
-.PHONY : io
-
-# fast build rule for target.
-io/fast:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
-.PHONY : io/fast
+DisplayImage/fast:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
 
 #=============================================================================
 # Target rules for targets named imwrite
@@ -228,6 +137,84 @@ imwrite/fast:
 .PHONY : imwrite/fast
 
 #=============================================================================
+# Target rules for targets named io
+
+# Build rule for target.
+io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 io
+.PHONY : io
+
+# fast build rule for target.
+io/fast:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
+.PHONY : io/fast
+
+#=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+#=============================================================================
+# Target rules for targets named fil
+
+# Build rule for target.
+fil: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fil
+.PHONY : fil
+
+# fast build rule for target.
+fil/fast:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/build
+.PHONY : fil/fast
+
+#=============================================================================
+# Target rules for targets named blank
+
+# Build rule for target.
+blank: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 blank
+.PHONY : blank
+
+# fast build rule for target.
+blank/fast:
+	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/build
+.PHONY : blank/fast
+
+#=============================================================================
+# Target rules for targets named video
+
+# Build rule for target.
+video: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video
+.PHONY : video
+
+# fast build rule for target.
+video/fast:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
+.PHONY : video/fast
+
+#=============================================================================
+# Target rules for targets named open
+
+# Build rule for target.
+open: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 open
+.PHONY : open
+
+# fast build rule for target.
+open/fast:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
+.PHONY : open/fast
+
+#=============================================================================
 # Target rules for targets named imread
 
 # Build rule for target.
@@ -241,17 +228,43 @@ imread/fast:
 .PHONY : imread/fast
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named smooth
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+smooth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smooth
+.PHONY : smooth
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+smooth/fast:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/build
+.PHONY : smooth/fast
+
+#=============================================================================
+# Target rules for targets named img
+
+# Build rule for target.
+img: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 img
+.PHONY : img
+
+# fast build rule for target.
+img/fast:
+	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/build
+.PHONY : img/fast
+
+#=============================================================================
+# Target rules for targets named op
+
+# Build rule for target.
+op: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 op
+.PHONY : op
+
+# fast build rule for target.
+op/fast:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
+.PHONY : op/fast
 
 src/BlankImage.o: src/BlankImage.cpp.o
 
@@ -415,6 +428,33 @@ src/filter.cpp.s:
 	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/filter.cpp.s
 .PHONY : src/filter.cpp.s
 
+src/filtering.o: src/filtering.cpp.o
+
+.PHONY : src/filtering.o
+
+# target to build an object file
+src/filtering.cpp.o:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/src/filtering.cpp.o
+.PHONY : src/filtering.cpp.o
+
+src/filtering.i: src/filtering.cpp.i
+
+.PHONY : src/filtering.i
+
+# target to preprocess a source file
+src/filtering.cpp.i:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/src/filtering.cpp.i
+.PHONY : src/filtering.cpp.i
+
+src/filtering.s: src/filtering.cpp.s
+
+.PHONY : src/filtering.s
+
+# target to generate assembly for a file
+src/filtering.cpp.s:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/src/filtering.cpp.s
+.PHONY : src/filtering.cpp.s
+
 src/imread.o: src/imread.cpp.o
 
 .PHONY : src/imread.o
@@ -556,19 +596,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... op"
-	@echo "... smooth"
-	@echo "... open"
-	@echo "... video"
-	@echo "... blank"
-	@echo "... img"
-	@echo "... filter"
-	@echo "... io"
-	@echo "... imwrite"
-	@echo "... imread"
 	@echo "... DisplayImage"
+	@echo "... imwrite"
+	@echo "... io"
+	@echo "... filter"
+	@echo "... fil"
+	@echo "... blank"
+	@echo "... video"
+	@echo "... open"
+	@echo "... imread"
+	@echo "... smooth"
+	@echo "... img"
+	@echo "... op"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... src/BlankImage.o"
 	@echo "... src/BlankImage.i"
 	@echo "... src/BlankImage.s"
@@ -587,6 +628,9 @@ help:
 	@echo "... src/filter.o"
 	@echo "... src/filter.i"
 	@echo "... src/filter.s"
+	@echo "... src/filtering.o"
+	@echo "... src/filtering.i"
+	@echo "... src/filtering.s"
 	@echo "... src/imread.o"
 	@echo "... src/imread.i"
 	@echo "... src/imread.s"

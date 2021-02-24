@@ -60,150 +60,187 @@ CMAKE_SOURCE_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv
 CMAKE_BINARY_DIR = /home/khaled/Desktop/ModernCPP2020/OpenCv/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/op.dir
+# Target rules for target CMakeFiles/DisplayImage.dir
 
 # All Build rule for target.
-CMakeFiles/op.dir/all:
-	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/depend
-	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=15,16 "Built target op"
-.PHONY : CMakeFiles/op.dir/all
+CMakeFiles/DisplayImage.dir/all:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=1,2 "Built target DisplayImage"
+.PHONY : CMakeFiles/DisplayImage.dir/all
 
 # Include target in all.
-all: CMakeFiles/op.dir/all
+all: CMakeFiles/DisplayImage.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/op.dir/rule: cmake_check_build_system
+CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/op.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/op.dir/rule
+.PHONY : CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.
-op: CMakeFiles/op.dir/rule
+DisplayImage: CMakeFiles/DisplayImage.dir/rule
 
-.PHONY : op
-
-# clean rule for target.
-CMakeFiles/op.dir/clean:
-	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/clean
-.PHONY : CMakeFiles/op.dir/clean
+.PHONY : DisplayImage
 
 # clean rule for target.
-clean: CMakeFiles/op.dir/clean
+CMakeFiles/DisplayImage.dir/clean:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/clean
+.PHONY : CMakeFiles/DisplayImage.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DisplayImage.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/smooth.dir
+# Target rules for target CMakeFiles/imwrite.dir
 
 # All Build rule for target.
-CMakeFiles/smooth.dir/all:
-	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/depend
-	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=19,20 "Built target smooth"
-.PHONY : CMakeFiles/smooth.dir/all
+CMakeFiles/imwrite.dir/all:
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/depend
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=13,14 "Built target imwrite"
+.PHONY : CMakeFiles/imwrite.dir/all
 
 # Include target in all.
-all: CMakeFiles/smooth.dir/all
+all: CMakeFiles/imwrite.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/smooth.dir/rule: cmake_check_build_system
+CMakeFiles/imwrite.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/smooth.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imwrite.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/smooth.dir/rule
+.PHONY : CMakeFiles/imwrite.dir/rule
 
 # Convenience name for target.
-smooth: CMakeFiles/smooth.dir/rule
+imwrite: CMakeFiles/imwrite.dir/rule
 
-.PHONY : smooth
-
-# clean rule for target.
-CMakeFiles/smooth.dir/clean:
-	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/clean
-.PHONY : CMakeFiles/smooth.dir/clean
+.PHONY : imwrite
 
 # clean rule for target.
-clean: CMakeFiles/smooth.dir/clean
+CMakeFiles/imwrite.dir/clean:
+	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/clean
+.PHONY : CMakeFiles/imwrite.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/imwrite.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/open.dir
+# Target rules for target CMakeFiles/io.dir
 
 # All Build rule for target.
-CMakeFiles/open.dir/all:
-	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/depend
-	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=17,18 "Built target open"
-.PHONY : CMakeFiles/open.dir/all
+CMakeFiles/io.dir/all:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/depend
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=15,16 "Built target io"
+.PHONY : CMakeFiles/io.dir/all
 
 # Include target in all.
-all: CMakeFiles/open.dir/all
+all: CMakeFiles/io.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/open.dir/rule: cmake_check_build_system
+CMakeFiles/io.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/open.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/io.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/open.dir/rule
+.PHONY : CMakeFiles/io.dir/rule
 
 # Convenience name for target.
-open: CMakeFiles/open.dir/rule
+io: CMakeFiles/io.dir/rule
 
-.PHONY : open
-
-# clean rule for target.
-CMakeFiles/open.dir/clean:
-	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/clean
-.PHONY : CMakeFiles/open.dir/clean
+.PHONY : io
 
 # clean rule for target.
-clean: CMakeFiles/open.dir/clean
+CMakeFiles/io.dir/clean:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/clean
+.PHONY : CMakeFiles/io.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/io.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/video.dir
+# Target rules for target CMakeFiles/filter.dir
 
 # All Build rule for target.
-CMakeFiles/video.dir/all:
-	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/depend
-	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=21,22 "Built target video"
-.PHONY : CMakeFiles/video.dir/all
+CMakeFiles/filter.dir/all:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/depend
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=7,8 "Built target filter"
+.PHONY : CMakeFiles/filter.dir/all
 
 # Include target in all.
-all: CMakeFiles/video.dir/all
+all: CMakeFiles/filter.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/video.dir/rule: cmake_check_build_system
+CMakeFiles/filter.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/video.dir/rule
+.PHONY : CMakeFiles/filter.dir/rule
 
 # Convenience name for target.
-video: CMakeFiles/video.dir/rule
+filter: CMakeFiles/filter.dir/rule
 
-.PHONY : video
-
-# clean rule for target.
-CMakeFiles/video.dir/clean:
-	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/clean
-.PHONY : CMakeFiles/video.dir/clean
+.PHONY : filter
 
 # clean rule for target.
-clean: CMakeFiles/video.dir/clean
+CMakeFiles/filter.dir/clean:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/clean
+.PHONY : CMakeFiles/filter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/filter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fil.dir
+
+# All Build rule for target.
+CMakeFiles/fil.dir/all:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/depend
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=5,6 "Built target fil"
+.PHONY : CMakeFiles/fil.dir/all
+
+# Include target in all.
+all: CMakeFiles/fil.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fil.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fil.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/fil.dir/rule
+
+# Convenience name for target.
+fil: CMakeFiles/fil.dir/rule
+
+.PHONY : fil
+
+# clean rule for target.
+CMakeFiles/fil.dir/clean:
+	$(MAKE) -f CMakeFiles/fil.dir/build.make CMakeFiles/fil.dir/clean
+.PHONY : CMakeFiles/fil.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fil.dir/clean
 
 .PHONY : clean
 
@@ -245,150 +282,76 @@ clean: CMakeFiles/blank.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/img.dir
+# Target rules for target CMakeFiles/video.dir
 
 # All Build rule for target.
-CMakeFiles/img.dir/all:
-	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/depend
-	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=7,8 "Built target img"
-.PHONY : CMakeFiles/img.dir/all
+CMakeFiles/video.dir/all:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/depend
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=23,24 "Built target video"
+.PHONY : CMakeFiles/video.dir/all
 
 # Include target in all.
-all: CMakeFiles/img.dir/all
+all: CMakeFiles/video.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/img.dir/rule: cmake_check_build_system
+CMakeFiles/video.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/img.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/img.dir/rule
+.PHONY : CMakeFiles/video.dir/rule
 
 # Convenience name for target.
-img: CMakeFiles/img.dir/rule
+video: CMakeFiles/video.dir/rule
 
-.PHONY : img
-
-# clean rule for target.
-CMakeFiles/img.dir/clean:
-	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/clean
-.PHONY : CMakeFiles/img.dir/clean
+.PHONY : video
 
 # clean rule for target.
-clean: CMakeFiles/img.dir/clean
+CMakeFiles/video.dir/clean:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/clean
+.PHONY : CMakeFiles/video.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/video.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/filter.dir
+# Target rules for target CMakeFiles/open.dir
 
 # All Build rule for target.
-CMakeFiles/filter.dir/all:
-	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/depend
-	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=5,6 "Built target filter"
-.PHONY : CMakeFiles/filter.dir/all
+CMakeFiles/open.dir/all:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/depend
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=19,20 "Built target open"
+.PHONY : CMakeFiles/open.dir/all
 
 # Include target in all.
-all: CMakeFiles/filter.dir/all
+all: CMakeFiles/open.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/filter.dir/rule: cmake_check_build_system
+CMakeFiles/open.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/filter.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/open.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/filter.dir/rule
+.PHONY : CMakeFiles/open.dir/rule
 
 # Convenience name for target.
-filter: CMakeFiles/filter.dir/rule
+open: CMakeFiles/open.dir/rule
 
-.PHONY : filter
-
-# clean rule for target.
-CMakeFiles/filter.dir/clean:
-	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/clean
-.PHONY : CMakeFiles/filter.dir/clean
+.PHONY : open
 
 # clean rule for target.
-clean: CMakeFiles/filter.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/io.dir
-
-# All Build rule for target.
-CMakeFiles/io.dir/all:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/depend
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=13,14 "Built target io"
-.PHONY : CMakeFiles/io.dir/all
-
-# Include target in all.
-all: CMakeFiles/io.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/io.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/io.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/io.dir/rule
-
-# Convenience name for target.
-io: CMakeFiles/io.dir/rule
-
-.PHONY : io
+CMakeFiles/open.dir/clean:
+	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/clean
+.PHONY : CMakeFiles/open.dir/clean
 
 # clean rule for target.
-CMakeFiles/io.dir/clean:
-	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/clean
-.PHONY : CMakeFiles/io.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/io.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/imwrite.dir
-
-# All Build rule for target.
-CMakeFiles/imwrite.dir/all:
-	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/depend
-	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=11,12 "Built target imwrite"
-.PHONY : CMakeFiles/imwrite.dir/all
-
-# Include target in all.
-all: CMakeFiles/imwrite.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/imwrite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imwrite.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/imwrite.dir/rule
-
-# Convenience name for target.
-imwrite: CMakeFiles/imwrite.dir/rule
-
-.PHONY : imwrite
-
-# clean rule for target.
-CMakeFiles/imwrite.dir/clean:
-	$(MAKE) -f CMakeFiles/imwrite.dir/build.make CMakeFiles/imwrite.dir/clean
-.PHONY : CMakeFiles/imwrite.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/imwrite.dir/clean
+clean: CMakeFiles/open.dir/clean
 
 .PHONY : clean
 
@@ -399,7 +362,7 @@ clean: CMakeFiles/imwrite.dir/clean
 CMakeFiles/imread.dir/all:
 	$(MAKE) -f CMakeFiles/imread.dir/build.make CMakeFiles/imread.dir/depend
 	$(MAKE) -f CMakeFiles/imread.dir/build.make CMakeFiles/imread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=9,10 "Built target imread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=11,12 "Built target imread"
 .PHONY : CMakeFiles/imread.dir/all
 
 # Include target in all.
@@ -430,39 +393,113 @@ clean: CMakeFiles/imread.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DisplayImage.dir
+# Target rules for target CMakeFiles/smooth.dir
 
 # All Build rule for target.
-CMakeFiles/DisplayImage.dir/all:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=1,2 "Built target DisplayImage"
-.PHONY : CMakeFiles/DisplayImage.dir/all
+CMakeFiles/smooth.dir/all:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/depend
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=21,22 "Built target smooth"
+.PHONY : CMakeFiles/smooth.dir/all
 
 # Include target in all.
-all: CMakeFiles/DisplayImage.dir/all
+all: CMakeFiles/smooth.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
+CMakeFiles/smooth.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/smooth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
-.PHONY : CMakeFiles/DisplayImage.dir/rule
+.PHONY : CMakeFiles/smooth.dir/rule
 
 # Convenience name for target.
-DisplayImage: CMakeFiles/DisplayImage.dir/rule
+smooth: CMakeFiles/smooth.dir/rule
 
-.PHONY : DisplayImage
-
-# clean rule for target.
-CMakeFiles/DisplayImage.dir/clean:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/clean
-.PHONY : CMakeFiles/DisplayImage.dir/clean
+.PHONY : smooth
 
 # clean rule for target.
-clean: CMakeFiles/DisplayImage.dir/clean
+CMakeFiles/smooth.dir/clean:
+	$(MAKE) -f CMakeFiles/smooth.dir/build.make CMakeFiles/smooth.dir/clean
+.PHONY : CMakeFiles/smooth.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/smooth.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/img.dir
+
+# All Build rule for target.
+CMakeFiles/img.dir/all:
+	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/depend
+	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=9,10 "Built target img"
+.PHONY : CMakeFiles/img.dir/all
+
+# Include target in all.
+all: CMakeFiles/img.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/img.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/img.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/img.dir/rule
+
+# Convenience name for target.
+img: CMakeFiles/img.dir/rule
+
+.PHONY : img
+
+# clean rule for target.
+CMakeFiles/img.dir/clean:
+	$(MAKE) -f CMakeFiles/img.dir/build.make CMakeFiles/img.dir/clean
+.PHONY : CMakeFiles/img.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/img.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/op.dir
+
+# All Build rule for target.
+CMakeFiles/op.dir/all:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/depend
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles --progress-num=17,18 "Built target op"
+.PHONY : CMakeFiles/op.dir/all
+
+# Include target in all.
+all: CMakeFiles/op.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/op.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/op.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles 0
+.PHONY : CMakeFiles/op.dir/rule
+
+# Convenience name for target.
+op: CMakeFiles/op.dir/rule
+
+.PHONY : op
+
+# clean rule for target.
+CMakeFiles/op.dir/clean:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/clean
+.PHONY : CMakeFiles/op.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/op.dir/clean
 
 .PHONY : clean
 
