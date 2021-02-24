@@ -57,6 +57,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/fil.dir/DependInfo.cmake"
   "CMakeFiles/blank.dir/DependInfo.cmake"
   "CMakeFiles/open.dir/DependInfo.cmake"
+  "CMakeFiles/equ.dir/DependInfo.cmake"
   "CMakeFiles/imread.dir/DependInfo.cmake"
   "CMakeFiles/smooth.dir/DependInfo.cmake"
   "CMakeFiles/img.dir/DependInfo.cmake"

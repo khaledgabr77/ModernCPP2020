@@ -202,6 +202,19 @@ open/fast:
 .PHONY : open/fast
 
 #=============================================================================
+# Target rules for targets named equ
+
+# Build rule for target.
+equ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 equ
+.PHONY : equ
+
+# fast build rule for target.
+equ/fast:
+	$(MAKE) -f CMakeFiles/equ.dir/build.make CMakeFiles/equ.dir/build
+.PHONY : equ/fast
+
+#=============================================================================
 # Target rules for targets named imread
 
 # Build rule for target.
@@ -332,6 +345,33 @@ src/CameraVideo.s: src/CameraVideo.cpp.s
 src/CameraVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/open.dir/build.make CMakeFiles/open.dir/src/CameraVideo.cpp.s
 .PHONY : src/CameraVideo.cpp.s
+
+src/HistEqualization.o: src/HistEqualization.cpp.o
+
+.PHONY : src/HistEqualization.o
+
+# target to build an object file
+src/HistEqualization.cpp.o:
+	$(MAKE) -f CMakeFiles/equ.dir/build.make CMakeFiles/equ.dir/src/HistEqualization.cpp.o
+.PHONY : src/HistEqualization.cpp.o
+
+src/HistEqualization.i: src/HistEqualization.cpp.i
+
+.PHONY : src/HistEqualization.i
+
+# target to preprocess a source file
+src/HistEqualization.cpp.i:
+	$(MAKE) -f CMakeFiles/equ.dir/build.make CMakeFiles/equ.dir/src/HistEqualization.cpp.i
+.PHONY : src/HistEqualization.cpp.i
+
+src/HistEqualization.s: src/HistEqualization.cpp.s
+
+.PHONY : src/HistEqualization.s
+
+# target to generate assembly for a file
+src/HistEqualization.cpp.s:
+	$(MAKE) -f CMakeFiles/equ.dir/build.make CMakeFiles/equ.dir/src/HistEqualization.cpp.s
+.PHONY : src/HistEqualization.cpp.s
 
 src/IO.o: src/IO.cpp.o
 
@@ -645,6 +685,7 @@ help:
 	@echo "... fil"
 	@echo "... blank"
 	@echo "... open"
+	@echo "... equ"
 	@echo "... imread"
 	@echo "... smooth"
 	@echo "... img"
@@ -657,6 +698,9 @@ help:
 	@echo "... src/CameraVideo.o"
 	@echo "... src/CameraVideo.i"
 	@echo "... src/CameraVideo.s"
+	@echo "... src/HistEqualization.o"
+	@echo "... src/HistEqualization.i"
+	@echo "... src/HistEqualization.s"
 	@echo "... src/IO.o"
 	@echo "... src/IO.i"
 	@echo "... src/IO.s"
