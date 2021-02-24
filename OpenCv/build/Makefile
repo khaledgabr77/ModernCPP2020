@@ -189,19 +189,6 @@ blank/fast:
 .PHONY : blank/fast
 
 #=============================================================================
-# Target rules for targets named video
-
-# Build rule for target.
-video: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video
-.PHONY : video
-
-# fast build rule for target.
-video/fast:
-	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
-.PHONY : video/fast
-
-#=============================================================================
 # Target rules for targets named open
 
 # Build rule for target.
@@ -265,6 +252,32 @@ op: cmake_check_build_system
 op/fast:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
 .PHONY : op/fast
+
+#=============================================================================
+# Target rules for targets named video
+
+# Build rule for target.
+video: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video
+.PHONY : video
+
+# fast build rule for target.
+video/fast:
+	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
+.PHONY : video/fast
+
+#=============================================================================
+# Target rules for targets named ero
+
+# Build rule for target.
+ero: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ero
+.PHONY : ero
+
+# fast build rule for target.
+ero/fast:
+	$(MAKE) -f CMakeFiles/ero.dir/build.make CMakeFiles/ero.dir/build
+.PHONY : ero/fast
 
 src/BlankImage.o: src/BlankImage.cpp.o
 
@@ -400,6 +413,33 @@ src/PlayVideo.s: src/PlayVideo.cpp.s
 src/PlayVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.s
 .PHONY : src/PlayVideo.cpp.s
+
+src/ero&dil.o: src/ero&dil.cpp.o
+
+.PHONY : src/ero&dil.o
+
+# target to build an object file
+src/ero&dil.cpp.o:
+	$(MAKE) -f CMakeFiles/ero.dir/build.make "CMakeFiles/ero.dir/src/ero&dil.cpp.o"
+.PHONY : src/ero&dil.cpp.o
+
+src/ero&dil.i: src/ero&dil.cpp.i
+
+.PHONY : src/ero&dil.i
+
+# target to preprocess a source file
+src/ero&dil.cpp.i:
+	$(MAKE) -f CMakeFiles/ero.dir/build.make "CMakeFiles/ero.dir/src/ero&dil.cpp.i"
+.PHONY : src/ero&dil.cpp.i
+
+src/ero&dil.s: src/ero&dil.cpp.s
+
+.PHONY : src/ero&dil.s
+
+# target to generate assembly for a file
+src/ero&dil.cpp.s:
+	$(MAKE) -f CMakeFiles/ero.dir/build.make "CMakeFiles/ero.dir/src/ero&dil.cpp.s"
+.PHONY : src/ero&dil.cpp.s
 
 src/filter.o: src/filter.cpp.o
 
@@ -596,20 +636,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... DisplayImage"
 	@echo "... imwrite"
 	@echo "... io"
 	@echo "... filter"
 	@echo "... fil"
 	@echo "... blank"
-	@echo "... video"
 	@echo "... open"
 	@echo "... imread"
 	@echo "... smooth"
 	@echo "... img"
 	@echo "... op"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
+	@echo "... video"
+	@echo "... ero"
 	@echo "... src/BlankImage.o"
 	@echo "... src/BlankImage.i"
 	@echo "... src/BlankImage.s"
@@ -625,6 +666,9 @@ help:
 	@echo "... src/PlayVideo.o"
 	@echo "... src/PlayVideo.i"
 	@echo "... src/PlayVideo.s"
+	@echo "... src/ero&dil.o"
+	@echo "... src/ero&dil.i"
+	@echo "... src/ero&dil.s"
 	@echo "... src/filter.o"
 	@echo "... src/filter.i"
 	@echo "... src/filter.s"

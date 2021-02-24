@@ -56,10 +56,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/filter.dir/DependInfo.cmake"
   "CMakeFiles/fil.dir/DependInfo.cmake"
   "CMakeFiles/blank.dir/DependInfo.cmake"
-  "CMakeFiles/video.dir/DependInfo.cmake"
   "CMakeFiles/open.dir/DependInfo.cmake"
   "CMakeFiles/imread.dir/DependInfo.cmake"
   "CMakeFiles/smooth.dir/DependInfo.cmake"
   "CMakeFiles/img.dir/DependInfo.cmake"
   "CMakeFiles/op.dir/DependInfo.cmake"
+  "CMakeFiles/video.dir/DependInfo.cmake"
+  "CMakeFiles/ero.dir/DependInfo.cmake"
   )

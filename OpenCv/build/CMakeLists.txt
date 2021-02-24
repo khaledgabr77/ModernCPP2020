@@ -32,3 +32,6 @@ add_executable( smooth src/smoothing.cpp )
 target_link_libraries( smooth ${OpenCV_LIBS} )
 add_executable( fil src/filtering.cpp )
 target_link_libraries( fil ${OpenCV_LIBS} )
+
+add_executable( ero src/ero&dil.cpp )
+target_link_libraries( ero ${OpenCV_LIBS} )
