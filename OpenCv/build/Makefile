@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named comp
+
+# Build rule for target.
+comp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 comp
+.PHONY : comp
+
+# fast build rule for target.
+comp/fast:
+	$(MAKE) -f CMakeFiles/comp.dir/build.make CMakeFiles/comp.dir/build
+.PHONY : comp/fast
+
+#=============================================================================
 # Target rules for targets named cal
 
 # Build rule for target.
@@ -385,6 +398,33 @@ src/HistCal.s: src/HistCal.cpp.s
 src/HistCal.cpp.s:
 	$(MAKE) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/src/HistCal.cpp.s
 .PHONY : src/HistCal.cpp.s
+
+src/HistComparison.o: src/HistComparison.cpp.o
+
+.PHONY : src/HistComparison.o
+
+# target to build an object file
+src/HistComparison.cpp.o:
+	$(MAKE) -f CMakeFiles/comp.dir/build.make CMakeFiles/comp.dir/src/HistComparison.cpp.o
+.PHONY : src/HistComparison.cpp.o
+
+src/HistComparison.i: src/HistComparison.cpp.i
+
+.PHONY : src/HistComparison.i
+
+# target to preprocess a source file
+src/HistComparison.cpp.i:
+	$(MAKE) -f CMakeFiles/comp.dir/build.make CMakeFiles/comp.dir/src/HistComparison.cpp.i
+.PHONY : src/HistComparison.cpp.i
+
+src/HistComparison.s: src/HistComparison.cpp.s
+
+.PHONY : src/HistComparison.s
+
+# target to generate assembly for a file
+src/HistComparison.cpp.s:
+	$(MAKE) -f CMakeFiles/comp.dir/build.make CMakeFiles/comp.dir/src/HistComparison.cpp.s
+.PHONY : src/HistComparison.cpp.s
 
 src/HistEqualization.o: src/HistEqualization.cpp.o
 
@@ -718,6 +758,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... comp"
 	@echo "... cal"
 	@echo "... DisplayImage"
 	@echo "... imwrite"
@@ -742,6 +783,9 @@ help:
 	@echo "... src/HistCal.o"
 	@echo "... src/HistCal.i"
 	@echo "... src/HistCal.s"
+	@echo "... src/HistComparison.o"
+	@echo "... src/HistComparison.i"
+	@echo "... src/HistComparison.s"
 	@echo "... src/HistEqualization.o"
 	@echo "... src/HistEqualization.i"
 	@echo "... src/HistEqualization.s"
