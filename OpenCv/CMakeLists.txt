@@ -44,3 +44,9 @@ target_link_libraries( equ ${OpenCV_LIBS} )
 
 add_executable( cal src/HistCal.cpp )
 target_link_libraries( cal ${OpenCV_LIBS} )
+
+add_executable( comp src/HistComparison.cpp )
+target_link_libraries( comp ${OpenCV_LIBS} )
+
+add_executable( binary src/binaryVision.cpp )
+target_link_libraries( binary ${OpenCV_LIBS} )
