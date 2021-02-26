@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named binary
+
+# Build rule for target.
+binary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary
+.PHONY : binary
+
+# fast build rule for target.
+binary/fast:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
+.PHONY : binary/fast
+
+#=============================================================================
 # Target rules for targets named comp
 
 # Build rule for target.
@@ -534,6 +547,33 @@ src/PlayVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.s
 .PHONY : src/PlayVideo.cpp.s
 
+src/binaryVision.o: src/binaryVision.cpp.o
+
+.PHONY : src/binaryVision.o
+
+# target to build an object file
+src/binaryVision.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/binaryVision.cpp.o
+.PHONY : src/binaryVision.cpp.o
+
+src/binaryVision.i: src/binaryVision.cpp.i
+
+.PHONY : src/binaryVision.i
+
+# target to preprocess a source file
+src/binaryVision.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/binaryVision.cpp.i
+.PHONY : src/binaryVision.cpp.i
+
+src/binaryVision.s: src/binaryVision.cpp.s
+
+.PHONY : src/binaryVision.s
+
+# target to generate assembly for a file
+src/binaryVision.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/binaryVision.cpp.s
+.PHONY : src/binaryVision.cpp.s
+
 src/ero&dil.o: src/ero&dil.cpp.o
 
 .PHONY : src/ero&dil.o
@@ -758,6 +798,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... binary"
 	@echo "... comp"
 	@echo "... cal"
 	@echo "... DisplayImage"
@@ -798,6 +839,9 @@ help:
 	@echo "... src/PlayVideo.o"
 	@echo "... src/PlayVideo.i"
 	@echo "... src/PlayVideo.s"
+	@echo "... src/binaryVision.o"
+	@echo "... src/binaryVision.i"
+	@echo "... src/binaryVision.s"
 	@echo "... src/ero&dil.o"
 	@echo "... src/ero&dil.i"
 	@echo "... src/ero&dil.s"

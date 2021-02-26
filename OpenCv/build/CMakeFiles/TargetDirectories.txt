@@ -1,5 +1,6 @@
 /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/rebuild_cache.dir
 /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/edit_cache.dir
+/home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/binary.dir
 /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/comp.dir
 /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/cal.dir
 /home/khaled/Desktop/ModernCPP2020/OpenCv/build/CMakeFiles/DisplayImage.dir
