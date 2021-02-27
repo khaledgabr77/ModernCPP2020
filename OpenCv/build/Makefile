@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named calibrate
+
+# Build rule for target.
+calibrate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calibrate
+.PHONY : calibrate
+
+# fast build rule for target.
+calibrate/fast:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/build
+.PHONY : calibrate/fast
+
+#=============================================================================
 # Target rules for targets named binary
 
 # Build rule for target.
@@ -357,6 +370,33 @@ src/BlankImage.s: src/BlankImage.cpp.s
 src/BlankImage.cpp.s:
 	$(MAKE) -f CMakeFiles/blank.dir/build.make CMakeFiles/blank.dir/src/BlankImage.cpp.s
 .PHONY : src/BlankImage.cpp.s
+
+src/CameraCalibration.o: src/CameraCalibration.cpp.o
+
+.PHONY : src/CameraCalibration.o
+
+# target to build an object file
+src/CameraCalibration.cpp.o:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/src/CameraCalibration.cpp.o
+.PHONY : src/CameraCalibration.cpp.o
+
+src/CameraCalibration.i: src/CameraCalibration.cpp.i
+
+.PHONY : src/CameraCalibration.i
+
+# target to preprocess a source file
+src/CameraCalibration.cpp.i:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/src/CameraCalibration.cpp.i
+.PHONY : src/CameraCalibration.cpp.i
+
+src/CameraCalibration.s: src/CameraCalibration.cpp.s
+
+.PHONY : src/CameraCalibration.s
+
+# target to generate assembly for a file
+src/CameraCalibration.cpp.s:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/src/CameraCalibration.cpp.s
+.PHONY : src/CameraCalibration.cpp.s
 
 src/CameraVideo.o: src/CameraVideo.cpp.o
 
@@ -798,6 +838,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... calibrate"
 	@echo "... binary"
 	@echo "... comp"
 	@echo "... cal"
@@ -818,6 +859,9 @@ help:
 	@echo "... src/BlankImage.o"
 	@echo "... src/BlankImage.i"
 	@echo "... src/BlankImage.s"
+	@echo "... src/CameraCalibration.o"
+	@echo "... src/CameraCalibration.i"
+	@echo "... src/CameraCalibration.s"
 	@echo "... src/CameraVideo.o"
 	@echo "... src/CameraVideo.i"
 	@echo "... src/CameraVideo.s"
