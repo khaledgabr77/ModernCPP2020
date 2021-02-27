@@ -50,3 +50,6 @@ target_link_libraries( comp ${OpenCV_LIBS} )
 
 add_executable( binary src/binaryVision.cpp )
 target_link_libraries( binary ${OpenCV_LIBS} )
+
+add_executable( calibrate src/CameraCalibration.cpp )
+target_link_libraries( calibrate ${OpenCV_LIBS} )
