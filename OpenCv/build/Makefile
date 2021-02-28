@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named trans
+
+# Build rule for target.
+trans: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trans
+.PHONY : trans
+
+# fast build rule for target.
+trans/fast:
+	$(MAKE) -f CMakeFiles/trans.dir/build.make CMakeFiles/trans.dir/build
+.PHONY : trans/fast
+
+#=============================================================================
 # Target rules for targets named calibrate
 
 # Build rule for target.
@@ -587,6 +600,33 @@ src/PlayVideo.cpp.s:
 	$(MAKE) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/src/PlayVideo.cpp.s
 .PHONY : src/PlayVideo.cpp.s
 
+src/Transformation.o: src/Transformation.cpp.o
+
+.PHONY : src/Transformation.o
+
+# target to build an object file
+src/Transformation.cpp.o:
+	$(MAKE) -f CMakeFiles/trans.dir/build.make CMakeFiles/trans.dir/src/Transformation.cpp.o
+.PHONY : src/Transformation.cpp.o
+
+src/Transformation.i: src/Transformation.cpp.i
+
+.PHONY : src/Transformation.i
+
+# target to preprocess a source file
+src/Transformation.cpp.i:
+	$(MAKE) -f CMakeFiles/trans.dir/build.make CMakeFiles/trans.dir/src/Transformation.cpp.i
+.PHONY : src/Transformation.cpp.i
+
+src/Transformation.s: src/Transformation.cpp.s
+
+.PHONY : src/Transformation.s
+
+# target to generate assembly for a file
+src/Transformation.cpp.s:
+	$(MAKE) -f CMakeFiles/trans.dir/build.make CMakeFiles/trans.dir/src/Transformation.cpp.s
+.PHONY : src/Transformation.cpp.s
+
 src/binaryVision.o: src/binaryVision.cpp.o
 
 .PHONY : src/binaryVision.o
@@ -838,6 +878,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... trans"
 	@echo "... calibrate"
 	@echo "... binary"
 	@echo "... comp"
@@ -883,6 +924,9 @@ help:
 	@echo "... src/PlayVideo.o"
 	@echo "... src/PlayVideo.i"
 	@echo "... src/PlayVideo.s"
+	@echo "... src/Transformation.o"
+	@echo "... src/Transformation.i"
+	@echo "... src/Transformation.s"
 	@echo "... src/binaryVision.o"
 	@echo "... src/binaryVision.i"
 	@echo "... src/binaryVision.s"

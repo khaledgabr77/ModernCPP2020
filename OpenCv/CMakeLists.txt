@@ -53,3 +53,6 @@ target_link_libraries( binary ${OpenCV_LIBS} )
 
 add_executable( calibrate src/CameraCalibration.cpp )
 target_link_libraries( calibrate ${OpenCV_LIBS} )
+
+add_executable( trans src/Transformation.cpp )
+target_link_libraries( trans ${OpenCV_LIBS} )
